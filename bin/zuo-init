@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+console.log('zuo init')
+console.log(process.argv)
+
+let ques1 = prompt("请问你叫什么？",  "zhangsan")
+let ques2 = prompt("请问你有什么好的想法?", "暂无")
+console.log('sdfsd')
+console.log(ques1, ques2)
+
+if (process.argv.length < 3) {
+  console.log('Arguments error, Please use like: zuo init <name>')
+} else {
+  console.log('TODO Init project ' + process.argv[2])
+}

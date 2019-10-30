@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const os = require('os')
+let cpuInfoArr = os.cpus()
+
+console.log('CPU INFO: ')
+console.log(' - Count: ' + cpuInfoArr.length)
+console.log(' - Model: ' + cpuInfoArr[0].model)
+console.log(' - Speed: ' + cpuInfoArr[0].speed)
+

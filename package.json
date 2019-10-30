@@ -1,0 +1,22 @@
+{
+  "name": "zuo-util",
+  "version": "0.1.1",
+  "description": "收集整理前端开发过程中常用的工具库合集",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tools",
+    "util",
+    "guoqzuo"
+  ],
+  "bin": {
+    "zuo": "./bin/zuo"
+  },
+  "author": "guoqzuo <916707888@qq.com> (http://zuo11.com)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^3.0.2"
+  }
+}

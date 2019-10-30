@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const program = require('commander')
+
+program.version(require('../package.json').version)
+    .command('init <name>', 'init project')
+    .command('cpu','show os cpu info')
+    
+program.parse(process.argv);
